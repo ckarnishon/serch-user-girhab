@@ -1,0 +1,66 @@
+.App {
+  width: 100%;
+  height: 100vh;
+}
+.main {
+  padding: 100px;
+}
+
+ul {
+}
+.conteiner {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.serch {
+  display: flex;
+  gap: 15px;
+}
+li {
+  list-style: none;
+  padding-top: 30px;
+  font-size: 30px;
+  cursor: pointer;
+  color: #1976d2;
+}
+
+.user {
+  width: 550px;
+  height: 550px;
+}
+
+.box {
+  margin-top: 30px;
+  display: flex;
+  width: 1000px;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+}
+
+.box_user {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+  margin-left: 150px;
+}
+
+.filter {
+  width: 300px;
+}
+
+.user_login {
+  font-size: 20px;
+  cursor: pointer;
+  color: #1d548b;
+}
+.img_user {
+  width: 150px;
+  height: 150px;
+}
